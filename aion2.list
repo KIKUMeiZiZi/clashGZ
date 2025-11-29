@@ -1,48 +1,18 @@
-DOMAIN-SUFFIX,aion2.game
-DOMAIN-SUFFIX,aion2.ncsoft.com
-DOMAIN-SUFFIX,ncsoft.com
-DOMAIN-SUFFIX,ncupdate.com
-
-IP-CIDR,123.123.0.0/16
 rules:
-  # PURPLE 启动器 / 登录 / 更新
-  - DOMAIN-SUFFIX,purple.com
-  - DOMAIN-SUFFIX,purplecdn.com
-  - DOMAIN-SUFFIX,purpleprotocol.com
-  - DOMAIN-SUFFIX,purpleauth.com
+  # ========= AION2（台湾版）游戏下载 =========
+  - DOMAIN,tw-a2-win.cdn.plaync.com.tw
+  - DOMAIN-SUFFIX,cdn.plaync.com.tw
+  - DOMAIN-SUFFIX,plaync.com.tw
 
-  # NCSoft 主域名
-  - DOMAIN-SUFFIX,ncsoft.com
+  # ========= Purple 通用游戏下载 / 更新 =========
+  - DOMAIN-SUFFIX,purplecdn.com
+  - DOMAIN-SUFFIX,ncsoftcdn.com
+  - DOMAIN-SUFFIX,ncpatch.com
   - DOMAIN-SUFFIX,ncupdate.com
+  - DOMAIN-SUFFIX,ncsrv.com
   - DOMAIN-SUFFIX,nclauncher.com
 
-  # 游戏语音 / 服务端
-  - DOMAIN-SUFFIX,ncchat.com
-  - DOMAIN-SUFFIX,ncvoice.com
-
-  # 如果 PURPLE 游戏抓到 IP（示例，自己替换）
-  - IP-CIDR,101.79.0.0/16
-  - IP-CIDR,222.122.0.0/16
-
-rules:
-  # PURPLE 启动器 / 登录 / 更新
-  - DOMAIN-SUFFIX,purple.com
-  - DOMAIN-SUFFIX,purplecdn.com
-  - DOMAIN-SUFFIX,purpleprotocol.com
-  - DOMAIN-SUFFIX,purpleauth.com
-
-  # NCSoft 主域名
-  - DOMAIN-SUFFIX,ncsoft.com
-  - DOMAIN-SUFFIX,ncupdate.com
-  - DOMAIN-SUFFIX,nclauncher.com
-
-  # 游戏语音 / 服务端
-  - DOMAIN-SUFFIX,ncchat.com
-  - DOMAIN-SUFFIX,ncvoice.com
-
-  # 如果 PURPLE 游戏抓到 IP（示例，自己替换）
-  - IP-CIDR,101.79.0.0/16,GameNode
-  - IP-CIDR,222.122.0.0/16,GameNode
-
-
-
+  # ========= Akamai CDN（大部分下载走这里）=========
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,edgesuite.net
+  - DOMAIN-SUFFIX,edgekey.net
