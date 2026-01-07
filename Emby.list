@@ -4,15 +4,16 @@ DOMAIN-SUFFIX,plushk1.younoyes.com
 DOMAIN-SUFFIX,ap-cn01.emby.bangumi.ca
 DOMAIN-SUFFIX,media.nijigem.by
 # 英雄联盟 中国服
-- DOMAIN-SUFFIX,lol.qq.com
-- DOMAIN-SUFFIX,leagueoflegends.com.cn
-- DOMAIN-SUFFIX,riotgames.qq.com
-- DOMAIN-SUFFIX,wegame.com
-- DOMAIN-SUFFIX,qq.com
-- DOMAIN-SUFFIX,tencent.com
-- DOMAIN-SUFFIX,gtimg.com
-- DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,lol.qq.com
+DOMAIN-SUFFIX,leagueoflegends.com.cn
+DOMAIN-SUFFIX,riotgames.qq.com
+DOMAIN-SUFFIX,wegame.com
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,qcloud.com
 
-- DOMAIN-KEYWORD,riot
-- DOMAIN-KEYWORD,lol
+DOMAIN-KEYWORD,riot
+DOMAIN-KEYWORD,lol
+
 
