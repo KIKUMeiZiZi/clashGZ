@@ -1,5 +1,6 @@
 # NAME: Emby✈
 # AUTHOR: KIKU
+
 DOMAIN-SUFFIX,embyclub.maoxiong.cloud
 DOMAIN-SUFFIX,emby.liminalnet.com
 DOMAIN-SUFFIX,ciallo.party
@@ -17,5 +18,6 @@ DOMAIN-SUFFIX,lite.cn2gias.uk
 DOMAIN-SUFFIX,emby.nebula-media.org
 DOMAIN,emby-cdn1.nebula-media.org
 DOMAIN,pub-58c37aacc5ca4f78ba86b47195edec29.r2.dev
+
 
 
