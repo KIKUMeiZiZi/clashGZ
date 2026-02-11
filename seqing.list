@@ -1,8 +1,10 @@
 # NAME: seqing
 # AUTHOR: KIKU
 #javrate
-DOMAIN-SUFFIX,www.javrate.com
 DOMAIN-SUFFIX,vz-a59c6881-d86.b-cdn.net
+DOMAIN-SUFFIX,javrate.com
+DOMAIN-SUFFIX,javrate.net
+DOMAIN-KEYWORD,javrate
 #jable.tv
 DOMAIN-SUFFIX,jable.tv
 DOMAIN-SUFFIX,jable.org
@@ -27,6 +29,7 @@ DOMAIN-SUFFIX,pornhubpremium.com
 DOMAIN-SUFFIX,xvideos-cdn.com
 #missav
 DOMAIN-SUFFIX,missav.ai
+
 
 
 
