@@ -15,6 +15,10 @@ DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,jable.io
 DOMAIN-SUFFIX,jablehk.com
 DOMAIN-KEYWORD,jable
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,cdn77.org
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,fastly.net
 #91porn
 DOMAIN-SUFFIX,91porn.com
 DOMAIN-SUFFIX,xvideos.com
@@ -33,6 +37,7 @@ DOMAIN-KEYWORD,pornhub
 DOMAIN-SUFFIX,xvideos-cdn.com
 #missav
 DOMAIN-SUFFIX,missav.ai
+
 
 
 
