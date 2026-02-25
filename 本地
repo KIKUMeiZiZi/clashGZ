@@ -1,0 +1,18 @@
+proxies:
+  - name: 🇹🇼 本地台湾
+    type: hysteria2
+    server: 35.229.193.80
+    port: 55555
+    password: e3a5bb40be52de65
+    sni: apps.apple.com
+    skip-cert-verify: true
+    udp: true
+
+  - name: 🇭🇰 本地香港
+    type: hysteria2
+    server: 34.96.136.44
+    port: 55555
+    password: e3a5bb40be52de65
+    sni: apps.apple.com
+    skip-cert-verify: true
+    udp: true
