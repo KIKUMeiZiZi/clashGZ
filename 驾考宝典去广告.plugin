@@ -4,11 +4,12 @@
 #!version=1.0
 
 [MITM]
-hostname = *.360buying.com, *.meituan.net
+hostname = *.360buying.com, *.meituan.net, *.mc-cdn.cn
 
 [Rule]
 DOMAIN-SUFFIX,360buying.com,REJECT
 DOMAIN-KEYWORD,meituan.net,REJECT
+DOMAIN-SUFFIX,smart-789.mc-cdn.cn,REJECT
 
 [Rewrite]
 # 启动页广告
