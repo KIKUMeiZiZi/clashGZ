@@ -13,7 +13,7 @@ hostname = scs.kakamobi.cn
 [Rewrite]
 # 启动页广告
 ^https:\/\/scs\.kakamobi\.cn\/api\/web\/v3\/join-ad\/get\.htm REJECT-DICT
-；^https:\/\/img1\.360buyimg\.com\/pop\/ REJECT-DICT
+#^https:\/\/img1\.360buyimg\.com\/pop\/ REJECT-DICT
 ；*.360buying.com, *.meituan.net, smart-789.mc-cdn.cn, 
 # 推荐广告
 
