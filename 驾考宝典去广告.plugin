@@ -1,0 +1,20 @@
+#!name=驾考宝典_NoAds
+#!desc=驾考宝典去广告（启动广告）
+#!author=KIKU
+#!version=1.0
+
+[MITM]
+hostname = *.360buyingi.com, *.meituan.net
+
+[Rule]
+DOMAIN-SUFFIX,img1.360buying.com,REJECT
+DOMAIN-SUFFIX,meituan.net,REJECT
+
+[Rewrite]
+# 启动页广告
+
+
+# 推荐广告
+
+
+# 信息流广告
