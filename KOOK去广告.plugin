@@ -1,0 +1,19 @@
+#!name=KOOK_NoAds
+#!desc=KOOK去广告（启动广告）
+#!author=KIKU
+#!version=1.0
+
+[MITM]
+hostname = *.66mobi.com, *.fancyapi.com, *.alicdn.com,*aliyuncs.com
+
+[Rule]
+DOMAIN-SUFFIX,zhangjiakou.aliyuncs.com,REJECT
+
+[Rewrite]
+# 启动页广告
+
+
+# 推荐广告
+
+
+# 信息流广告
