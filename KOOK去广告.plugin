@@ -4,14 +4,17 @@
 #!version=1.0
 
 [MITM]
-hostname = *.66mobi.com, *.fancyapi.com, *.alicdn.com,*aliyuncs.com
+hostname = %APPEND% material.adwangmai.com,*.fancyapi.com
 
 [Rule]
-DOMAIN-SUFFIX,zhangjiakou.aliyuncs.com,REJECT
+DOMAIN,material.adwangmai.com,REJECT
+DOMAIN-SUFFIX,fancyapi.com,REJECT
 
 [Rewrite]
 # 启动页广告
-
+^https?:\/\/.*adwangmai\.com\/.*,REJECT-DICT
+^https?:\/\/(g|t2|pic|lftxali)\.fancyapi\.com\/.*,REJECT-DICT
+^https?:\/\/.*\/(ad|advert|splash).*,REJECT-DICT
 
 # 推荐广告
 
