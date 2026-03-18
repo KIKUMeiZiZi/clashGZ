@@ -12,9 +12,9 @@ DOMAIN-SUFFIX,fancyapi.com,REJECT
 
 [Rewrite]
 # 启动页广告
-URL-REGEX,^https?:\/\/.*adwangmai\.com\/.*,REJECT-DICT
-URL-REGEX,^https?:\/\/(g|t2|pic|lftxali)\.fancyapi\.com\/.*,REJECT-DICT
-URL-REGEX,^https?:\/\/.*\/(ad|advert|splash).*,REJECT-DICT
+^https?:\/\/.*adwangmai\.com\/.* - REJECT-DICT
+^https?:\/\/(g|t2|pic|lftxali)\.fancyapi\.com\/.* - REJECT-DICT
+^https?:\/\/.*\/(ad|advert|splash)[\/\?].* - REJECT-DICT
 
 # 推荐广告
 
