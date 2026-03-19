@@ -1,0 +1,28 @@
+#!name=京东去广告精简版
+#!desc=屏蔽京东开屏、首页信息流及商品页推荐广告
+#!author=KIKU
+#!version=1.0
+
+[Rule]
+# 拦截京东常用的广告域名
+DOMAIN,dns.jd.com,REJECT
+DOMAIN,adash.m.jd.com,REJECT
+
+[Rewrite]
+# ===== 开屏广告拦截 =====
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start reject-dict
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=welcomeHome reject-dict
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=init reject-dict
+
+# ===== 首页信息流广告精简 =====
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=homeFloor reject-dict
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=homeFeed reject-dict
+
+# ===== 商品页推荐广告 =====
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=wareBusiness reject-dict
+
+# ===== 通用广告关键词拦截 =====
+^https?:\/\/.*\/(ad|advert|promotion|promo|splash) reject-dict
+
+[MITM]
+hostname = api.m.jd.com, api.jd.com
