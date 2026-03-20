@@ -22,7 +22,7 @@ DOMAIN,adash.m.jd.com,REJECT
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=wareBusiness reject-dict
 
 # ===== 通用广告关键词拦截 =====
-^https?:\/\/.*\/(ad|advert|promotion|promo|splash) reject-dict
+^https?:\/\/.*\/(ad|advert|promotion|promo|splash)-reject-dict
 
 [MITM]
 hostname = api.m.jd.com, api.jd.com
