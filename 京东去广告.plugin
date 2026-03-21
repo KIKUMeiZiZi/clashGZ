@@ -13,6 +13,8 @@ DOMAIN,adash.m.jd.com,REJECT
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start reject-dict
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=welcomeHome reject-dict
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=init reject-dict
+^https?:\/\/.*(jdcdn|360buyimg)\.com\/.*(ad|banner|promotion) reject-dict
+
 
 # ===== 首页信息流广告精简 =====
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=homeFloor reject-dict
