@@ -43,12 +43,17 @@ DOMAIN-SUFFIX,xvideos-cdn.com
 #missav
 DOMAIN-SUFFIX,missav.ai
 DOMAIN-SUFFIX,surrit.com
-# Hanime1
+#Hanime1
 DOMAIN-SUFFIX,hanime1.me
 DOMAIN-SUFFIX,hanime1.com
 DOMAIN-SUFFIX,hanime.tv
 DOMAIN-KEYWORD,hanime1
-
+#beeg
+DOMAIN-SUFFIX, beeg.com
+DOMAIN-SUFFIX, externulls.com
+#xhamster
+DOMAIN-SUFFIX,xhamster.com
+DOMAIN-SUFFIX,xhcdn.com
 
 
 
