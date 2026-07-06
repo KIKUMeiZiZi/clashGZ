@@ -65,8 +65,19 @@ DOMAIN-KEYWORD,beeg
 PROCESS-NAME,beeg
 #xhamster
 DOMAIN-SUFFIX,xhamster.com
-DOMAIN-SUFFIX,xhcdn.com
-
+DOMAIN-SUFFIX,xhamster.xxx
+DOMAIN-SUFFIX,xhamster.desi
+DOMAIN-SUFFIX,www.xhamster.com
+DOMAIN-SUFFIX,m.xhamster.com
+DOMAIN-SUFFIX,api.xhamster.com
+DOMAIN-SUFFIX,static.xhamster.com
+DOMAIN-SUFFIX,cdn.xhamster.com
+DOMAIN-SUFFIX,img.xhamster.com
+DOMAIN-SUFFIX,thumbs.xhamster.com
+DOMAIN-SUFFIX,video.xhamster.com
+DOMAIN-KEYWORD,xhamster
+DOMAIN-KEYWORD,xhcdn
+DOMAIN-KEYWORD,xhvideos
 
 
 
