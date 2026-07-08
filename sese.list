@@ -78,7 +78,17 @@ DOMAIN-SUFFIX,video.xhamster.com
 DOMAIN-KEYWORD,xhamster
 DOMAIN-KEYWORD,xhcdn
 DOMAIN-KEYWORD,xhvideos
-
+#WOW
+DOMAIN-SUFFIX,wow.xxx
+DOMAIN-SUFFIX,www.wow.xxx
+DOMAIN-SUFFIX,m.wow.xxx
+DOMAIN-SUFFIX,api.wow.xxx
+DOMAIN-SUFFIX,static.wow.xxx
+DOMAIN-SUFFIX,cdn.wow.xxx
+DOMAIN-SUFFIX,img.wow.xxx
+DOMAIN-SUFFIX,image.wow.xxx
+DOMAIN-SUFFIX,video.wow.xxx
+DOMAIN-KEYWORD,wow
 
 
 
