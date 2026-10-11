@@ -1,0 +1,5 @@
+rules:
+  - DOMAIN-SUFFIX,ad.oceanengine.com,REJECT
+  - DOMAIN-SUFFIX,ad.toutiao.com,REJECT
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+  - DOMAIN-SUFFIX,ads.tiktok.com,REJECT
