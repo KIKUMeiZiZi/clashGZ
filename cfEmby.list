@@ -38,3 +38,5 @@ DOMAIN-SUFFIX,bb.emby.edu.kg
 DOMAIN-SUFFIX,olelive.com
 DOMAIN-SUFFIX,api.olelive.com
 DOMAIN-SUFFIX,cloud.yuntongclouds.com
+#imdb
+DOMAIN-SUFFIX,media-imdb.com
