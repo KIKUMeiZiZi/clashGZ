@@ -550,7 +550,7 @@ const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
 
 // 在这里填写你自己获取的 cf_clearance 值（只填写值，不要写 cf_clearance=）。
 // 留空时不发送该 Cookie。
-const CF_CLEARANCE = "";
+const CF_CLEARANCE = "CskZKdGlyJre2ew9yK_sg3rqexibVx3tCRkdOt5ZuYdwekmQBpG9NWaki5Gr9w0Bybbiv-nqOEI9o55XDoKLSbu-xyFy6uwvwFXEo9vU8oj7pnzYPsV1m2NnmtJu0tceyPz-NxCn_oabvg0-fsPBF6D1-HLm_S0baklfClBUTpFRy5wVIK2lITugraS1BjMuPanyoa8v90OQHqe0RhgMJnfqiQUlbQefwp4nYiItwLVXndEU5MFSzI2EppZB_Y773-eF7x3RO-NowKgnCLzYbyO1iIfUfeG8oFe2T6Sd2BrEmAkr1I8_ynM1dNVpA3dPtfT6zndk2lfLfpZfa70Tgq1MqsNcKjuy7nDzpBa4s6cjF02ihRA6_qXI6Lpq7ts6uEmDA9Bv-5NRLimIaCDCo3hUc8BYYyY31iXN6i3it6NjKHdJO6ZDoE9PWNfN75ok2Nc5GUBCU7RpaplEtnNMgT9VgJ4";
 
 function getHeaders(referer = BASE_URL + "/") {
   const headers = {
